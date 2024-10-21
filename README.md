@@ -63,7 +63,7 @@ A Python-based tool that allows users to download files directly to their Google
 
 Below is a sample interaction with the program:
 
-  ```python
+  ```bash
   Welcome to the Google Drive Uploader 🙏🏻
 
   Enter the download link 🔗: https://example.com/file.zip
@@ -82,8 +82,3 @@ Below is a sample interaction with the program:
 
   File 'file.zip' downloaded successfully to 'Uploader'.
 
-
-
-
-
-   
