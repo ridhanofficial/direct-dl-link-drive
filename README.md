@@ -57,28 +57,13 @@ A Python-based tool that allows users to download files directly to their Google
    
   5. **File Storage:** 
      - After the download completes, the file will be saved in your specified Google Drive folder (e.g., `/content/drive/MyDrive/Uploader/`).
+     - 
 
+## 4. Run the Script
 
-## Example
+To run the script:
 
-Below is a sample interaction with the program:
-
-  ```bash
-  Welcome to the Google Drive Uploader 🙏🏻
-
-  Enter the download link 🔗: https://example.com/file.zip
-
-  The file 'file.zip' is 120 MB in size.
-  Do you want to rename the file? (yes/no): no
-
-  Downloading...
-
-  [#5e6eae 128MiB/120MiB(106%) CN:16 DL:3.9MiB ETA:0s]
-
-  File name: file.zip
-  File size: 120 MB
-  Total Time: 35.12 seconds
-  Saved location: /content/drive/MyDrive/Uploader/file.zip
-
-  File 'file.zip' downloaded successfully to 'Uploader'.
-
+1. Open a new Google Colab notebook.
+2. Install `aria2` by running the following command in a Colab cell:
+   ```bash
+   !apt-get install -y aria2
