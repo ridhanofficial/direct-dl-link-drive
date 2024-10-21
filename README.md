@@ -36,7 +36,7 @@ A Python-based tool that allows users to download files directly to their Google
 3. **Mount Google Drive**
    Mount Google Drive to store the downloaded files. The script automatically mounts Google Drive, but here is the command for reference:
    ```python
-from google.colab import drive
-drive.mount('/content/drive')
+   from google.colab import drive
+   drive.mount('/content/drive')
 
    
